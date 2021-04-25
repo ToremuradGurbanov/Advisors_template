@@ -1,0 +1,194 @@
+body {
+  box-sizing: border-box;
+  background-color: grey;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.904);
+}
+a {
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+  color: bisque;
+  justify-content: space-between;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* navigation bar */
+nav {
+  padding-top: 1%;
+  margin: 0 auto;
+  padding-bottom: 1%;
+  border-bottom: 2px solid white;
+}
+.nav-items {
+  display: inline;
+  margin: 0;
+  padding: 2%;
+}
+@media screen and (max-width: 600px) {
+  .nav-items {
+    display: block;
+  }
+}
+
+/* registration button --- */
+.btn-register {
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 85%;
+}
+@media screen and (max-width: 600px) {
+  .btn-register {
+    margin-left: 60%;
+  }
+}
+.login {
+  padding-right: 20px;
+}
+
+/* container-main */
+.container {
+  margin: 0;
+  color: rgba(75, 74, 74, 0.753);
+  background-image: url("../project-pics/backgournd.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    background: none;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  }
+}
+.header {
+  text-align: center;
+  padding-top: 18%;
+  font-weight: 800;
+}
+.main {
+  text-align: center;
+}
+.main-inner {
+  padding-top: 2%;
+}
+/* login */
+.login-form {
+  text-align: center;
+  margin: 100px auto;
+  background-color: gray;
+  width: 300px;
+  border: 2px solid #ddd;
+}
+.login-main {
+  text-align: center;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+div input {
+  display: flex;
+  padding: 10px 10px;
+}
+input {
+  width: 300px;
+}
+div label {
+  display: block;
+  padding: 10px 10px;
+  margin: 5px;
+}
+/* button */
+button {
+  background-color: green;
+  color: snow;
+  width: 60%;
+  height: 40px;
+  text-align: center;
+  border: 1px solid darkgreen;
+  border-radius: 15%;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+/* registration */
+
+.regist-main {
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+/* about */
+.About {
+  padding-top: 20px;
+  background-image: url("../project-pics/pen-and-pencil.jpg");
+  color: rgba(75, 74, 74, 0.753);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .About {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100%;
+
+    background: none;
+    background-color: white;
+  }
+}
+.middle-wrapper {
+  padding-top: 100px;
+  margin: 0 30%;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: grey;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  color: white;
+}
+
+footer ul li {
+  display: inline;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  footer ul li {
+    display: block;
+    text-align: center;
+  }
+}
+
+.contacts-footer {
+  text-align: center;
+}
+
+/* jobs */
+
+.jobs-wrapper {
+  color: black;
+  text-align: center;
+  background-color: rgb(228, 219, 219);
+
+  display: grid;
+  grid-template-columns: 20% 20%;
+  grid-template-rows: 200px;
+  grid-column-gap: 20px;
+  border: 2px solid white;
+}
